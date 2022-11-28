@@ -30,4 +30,8 @@ public class Seleccion {
     @ManytoOne
     @JoinColum(name="continente_id")
     private Continente continente;
+
+    public static boolean isEmpty() {
+        return false;
+    }
 }
