@@ -31,7 +31,7 @@ public class Resultado {
     private Integer amarillas;
     private Integer rojas;
 
-    @ManyToOne 
+    @OneToMany 
     @JoinColumn(name="partido_id")
     private Partido partido;
     @ManyToMany
